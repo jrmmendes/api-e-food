@@ -3,6 +3,9 @@
 </p>
 <p align=center>
   <img src="https://img.shields.io/github/issues/mjs-community/api-e-food?color=%2366503A">
+  <a href="https://codeclimate.com/github/mjs-community/api-e-food/maintainability"><img src="https://api.codeclimate.com/v1/badges/6bd37c411c99c28c37fb/maintainability" /></a>
+</p>
+<p align=center>
   <img src="https://img.shields.io/badge/mongodb-green?logo=mongoDB&style=flat&color=%2347a248&logoColor=white">
   <img src="https://img.shields.io/badge/node.js-green?logo=node.js&style=flat&color=%23339933&logoColor=white">
   <img src="https://img.shields.io/badge/jest-green?logo=jest&style=flat&color=%23C21325&logoColor=white">
