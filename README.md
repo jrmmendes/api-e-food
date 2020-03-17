@@ -6,10 +6,28 @@
 </p>
 
 ## Sobre
-
+O e-food é um serviço para delivery de energéticos, café, chá gelado, etc. Nesse repositório está a API do e-food.
 ## Primeiros Passos
+Inicialmente, clone o repositório:
+```
+git clone https://github.com/mjs-community/api-e-food.git
+```
+
+Entre na pasta do projeto:
+
+```
+cd api-e-food
+```
+Instale as dependências:
+```
+yarn install
+```
+
+Para executar os testes, utilize o script `test`. Para gerar os arquivos de produção no diretório `dist/`, utilize o script `build`. Caso queira executar em modo de produção ou desenvolvimento, utilize o script `start` ou `dev`, respectivamente.
 
 ## Tecnologias
+- [Node.js](https://nodejs.org)
+- [MongoDB](https://www.mongodb.com/)
 
 ## Contribua
 
