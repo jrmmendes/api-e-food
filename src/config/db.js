@@ -1,9 +1,9 @@
 import { connect, connection } from 'mongoose';
 
-export default () => {
+export default (connectionString) => {
   try {
     connect(
-      process.env.MONGO_URI,
+      connectionString,
       {
         useCreateIndex: true,
         useNewUrlParser: true,

@@ -5,7 +5,6 @@ import { config as dotenv } from 'dotenv';
 import db from './db';
 
 dotenv();
-db();
 
 const app = express();
 app.use(cors());
