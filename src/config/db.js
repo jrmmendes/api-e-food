@@ -1,8 +1,8 @@
-import mongoose from 'mongoose';
+import { connect, connection } from 'mongoose';
 
 export default () => {
   try {
-    mongoose.connect(
+    connect(
       process.env.MONGO_URI,
       {
         useCreateIndex: true,
@@ -11,7 +11,7 @@ export default () => {
       },
     );
 
-    mongoose.connection.on('open', () => {
+    connection.once('open', () => {
       console.log('Connected to database');
     });
   } catch (error) {
