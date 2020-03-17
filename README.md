@@ -3,6 +3,7 @@
 </p>
 <p align=center>
   <img src="https://img.shields.io/github/issues/mjs-community/api-e-food?color=%2366503A">
+  <img src="https://img.shields.io/badge/mongodb-green?logo=mongoDB&style=flat&color=%2347a248&logoColor=white">
 </p>
 
 ## Sobre
