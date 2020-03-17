@@ -1,9 +1,9 @@
-const request = require('supertest');
+import request from 'supertest';
 
-const app = require('../src/config/app');
+import app from '../src/config/app';
 
 test('Server should be running with response 200  ', async () => {
   const res = await request(app).get('/');
 
-  expect(res.status).toBe(200);
+  expect(res.status).toBe(404);
 });
